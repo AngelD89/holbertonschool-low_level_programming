@@ -1,16 +1,14 @@
 #include <stdio.h>
-
 /**
- * main - Entry point of the program
+ * main - entry point
  *
- * Description: This program prints a specific string using printf
- *              and ensures proper grammar and formatting.
- *              It returns 0 to indicate successful execution.
+ * Description: prints "with proper grammar, but the outcome is a piece of art"
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
-    printf("with proper grammar, but the outcome is a piece of art,\n");
-    return (0);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+
+	return (0);
 }
