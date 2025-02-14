@@ -1,15 +1,16 @@
+#include <stdio.h>
+
 /**
  * main - Entry point of the program
  *
- * Description: Prints "Programming is like building a multilingual puzzle"
- *              followed by a new line.
+ * Description: This program prints a specific string using printf
+ *              and ensures proper grammar and formatting.
+ *              It returns 0 to indicate successful execution.
  *
  * Return: Always 0 (Success)
  */
- # include <stdio.h>
- 
 int main(void)
-	{
-		printfiprintf("with proper grammar, but the outcome is a piece of art,\n");
+{
+    printf("with proper grammar, but the outcome is a piece of art,\n");
     return (0);
 }
