@@ -8,7 +8,7 @@
  *
  * Return: The pointer to dest.
  */
-char *strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
