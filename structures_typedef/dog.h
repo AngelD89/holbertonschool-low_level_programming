@@ -2,24 +2,23 @@
 #define DOG_H
 
 /**
- * struct dog - Defines a new struct for a dog
- * @name: Name of the dog (char pointer)
- * @age: Age of the dog (float)
- * @owner: Owner of the dog (char pointer)
+ * struct dog - Defines a new structure for storing dog information.
+ * @name: Pointer to a string containing the dog's name.
+ * @age: The dog's age as a float.
+ * @owner: Pointer to a string containing the owner's name.
+ *
+ * Description: This structure holds information about a dog, including
+ * its name, age, and owner's name.
  */
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+} dog_t;
 
-typedef struct dog dog_t;
-
-/* Function prototype for init_dog */
-void init_dog(struct dog *d, char *name, float age, char *owner);
-void print_dog(struct dog *d);
+/* Function prototypes */
 dog_t *new_dog(char *name, float age, char *owner);
-void free_dog(dog_t *d); /* optional if you want to free later */
+void free_dog(dog_t *d);
 
 #endif /* DOG_H */
