@@ -10,7 +10,7 @@
  */
 void print_error(const char *msg)
 {
-	dprintf(STDERR_FILENO, "%\n", msg);
+	dprintf(STDERR_FILENO, "%s\n", msg);
 	exit(98);
 }
 
